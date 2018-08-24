@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link href="http://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet" type="text/css">
+    <link href="http://www.ianlunn.co.uk/demo-assets/demo-style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <input type="search" placeholder="Search for School Name or ID.." id="textInput" onkeyup="filter()" />
+        <div class="header">Schools Printers (Sorted By Site)</div>
+        <div class="subheader">Search for your school, using the <u><b>search field</b></u> above</div>
+        <ul id="myUL">
+            <li>
+                <div class="school">Andrus Elementary (AE)</div>
+                <iframe src="http://print.ae.westada.internal/printers" height="325px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Barbara Morgan STEM Elementary (BMSA)</div>
+                <iframe src="http://print.bmsa.westada.internal/printers" height="365px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Central Academy (CAHS)</div>
+                <iframe src="http://print.cahs.westada.internal/printers" height="325px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Christine Donnell School of the Arts (CDSA)</div>
+                <iframe src="http://print.cdsa.westada.internal/printers" height="395px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Chaparral Elementary (CE)</div>
+                <iframe src="http://print.ce.westada.internal/printers" height="445px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Centennial High School (CHS)</div>
+                <iframe src="http://print.chs.westada.internal/printers" height="785px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Chief Joseph School of the Arts (CJE)</div>
+                <iframe src="http://print.cje.westada.internal/printers" height="435px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Crossroads Middle School (CMS)</div>
+                <iframe src="http://print.cms.westada.internal/printers" height="365px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Discovery Elementary (DE)</div>
+                <iframe src="http://print.de.westada.internal/printers" height="385px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">District Service Center (DSC)</div>
+                <iframe src="http://print.dsc.westada.internal/printers" height="1060px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Desert Sage Elementary (DSE)</div>
+                <iframe src="http://print.dse.westada.internal/printers" height="415px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Eagle Academy (EA)</div>
+                <iframe src="http://print.ea.westada.internal/printers" height="305px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Eagle Elementary School of the Arts (EE)</div>
+                <iframe src="http://print.ee.westada.internal/printers" height="525px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Eagle Hills Elementary (EHE)</div>
+                <iframe src="http://print.ehe.westada.internal/printers" height="425px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Eagle High School (EHS)</div>
+                <iframe src="http://print.ehs.westada.internal/printers" height="695px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Eagle Middle School (EMS)</div>
+                <iframe src="http://print.ems.westada.internal/printers" height="605px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Frontier Elementary (FE)</div>
+                <iframe src="http://print.fe.westada.internal/printers" height="485px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Galileo STEM Academy (GMAS)</div>
+                <iframe src="http://print.gmas.westada.internal/printers" height="545px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Hillsdale Elementary (HDE)</div>
+                <iframe src="http://print.hde.westada.internal/printers" height="385px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Hunter Elementary (HE)</div>
+                <iframe src="http://print.he.westada.internal/printers" height="320px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Heritage Middle School (HMS)</div>
+                <iframe src="http://print.hms.westada.internal/printers" height="665px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Idaho Fine Arts Academy (IFAA)</div>
+                <iframe src="http://print.ifaa.westada.internal/printers" height="385px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Joplin Elementary (JE)</div>
+                <iframe src="http://print.je.westada.internal/printers" height="385px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Lewis and Clark Middle School (LCMS)</div>
+                <iframe src="http://print.lcms.westada.internal/printers" height="585px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Lake Hazel Elementary (LHE)</div>
+                <iframe src="http://print.lhe.westada.internal/printers" height="345px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Lake Hazel Middle School (LHMS)</div>
+                <iframe src="http://print.lhms.westada.internal/printers" height="635px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Lowell Scott Middle School (LSMS)</div>
+                <iframe src="http://print.lsms.westada.internal/printers" height="765px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Meridian Academy (MAHS)</div>
+                <iframe src="http://print.mahs.westada.internal/printers" height="340px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">McMillan Elementary School (MCME)</div>
+                <iframe src="http://print.mcme.westada.internal/printers" height="405px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Meridian Elementary (ME)</div>
+                <iframe src="http://print.me.westada.internal/printers" height="405px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Meridian High School (MHS)</div>
+                <iframe src="http://print.mhs.westada.internal/printers" height="945px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Meridian Medical Arts Charter (MMACHS)</div>
+                <iframe src="http://print.mmachs.westada.internal/printers" height="320px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Mary McPherson Elementary (MME)</div>
+                <iframe src="http://print.mme.westada.internal/printers" height="365px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Meridian Middle School (MMS)</div>
+                <iframe src="http://print.mms.westada.internal/printers" height="580px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Mountain View High School (MVHS)</div>
+                <iframe src="http://print.mvhs.westada.internal/printers" height="1160px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Ponderosa Elementary (PDE)</div>
+                <iframe src="http://print.pde.westada.internal/printers" height="365px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Pioneer School of the Arts (PE)</div>
+                <iframe src="http://print.pe.westada.internal/printers" height="405px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Peregrine Elementary (PGE)</div>
+                <iframe src="http://print.pge.westada.internal/printers" height="465px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Paramount Elementary (PME)</div>
+                <iframe src="http://print.pme.westada.internal/printers" height="535px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Pathways Middle School (PMS)</div>
+                <iframe src="http://print.pms.westada.internal/printers" height="285px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Pepper Ridge Elementary (PRE)</div>
+                <iframe src="http://print.pre.westada.internal/printers" height="325px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Prospect Elementary (PSE)</div>
+                <iframe src="http://print.pse.westada.internal/printers" height="445px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Rebound School of Opportunity (RBD)</div>
+                <iframe src="http://print.rbd.westada.internal/printers" height="265px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Renaissance High School (RHS)</div>
+                <iframe src="http://print.rhs.westada.internal/printers" height="475px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Rocky Mountain High School (RMHS)</div>
+                <iframe src="http://print.rmhs.westada.internal/printers" height="1025px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">River Valley Elementary (RVE)</div>
+                <iframe src="http://print.rve.westada.internal/printers" height="545px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Siena Elementary (SIE)</div>
+                <iframe src="http://print.sie.westada.internal/printers" height="325px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Sawtooth Middle School (SMS)</div>
+                <iframe src="http://print.sms.westada.internal/printers" height="425px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Seven Oaks Elementary (SOE)</div>
+                <iframe src="http://print.soe.westada.internal/printers" height="305px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Spalding STEM Academy (SPE)</div>
+                <iframe src="http://print.spe.westada.internal/printers" height="365px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Silver Sage Elementary (SSE)</div>
+                <iframe src="http://print.sse.westada.internal/printers" height="420px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Star Elementary (STE)</div>
+                <iframe src="http://print.ste.westada.internal/printers" height="375px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Star Middle School (STMS)</div>
+                <iframe src="http://print.stms.westada.internal/printers" height="605px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Summerwind STEM Academy (SWE)</div>
+                <iframe src="http://print.swe.westada.internal/printers" height="385px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Ustick Elementary (UE)</div>
+                <iframe src="http://print.ue.westada.internal/printers" height="465px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Victory Middle School (VMS)</div>
+                <iframe src="http://print.vms.westada.internal/printers" height="645px" width="100%" scrolling="no"></iframe>
+            </li>
+            <li>
+                <div class="school">Willow Creek Elementary (WCE)</div>
+                <iframe src="http://print.wce.westada.internal/printers" height="355px" width="100%" scrolling="no"></iframe>
+        </ul>
+    </div>
+    <!-- end #wrapper -->
+
+    <script>
+        $("input").on("keyup", function(ev) {
+            var texto = $(this).val();
+            filtro(texto);
+        });
+
+        function filtro(texto) {
+            var lista = $("ul li").hide()
+                .filter(function() {
+                    var item = $(this).text();
+                    var padrao = new RegExp(texto, "i");
+
+                    return padrao.test(item);
+                }).closest("li").show();
+        }
+    </script>
+</body>
+
+</html>

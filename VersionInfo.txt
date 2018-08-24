@@ -1,0 +1,2 @@
+Jquery has been added.
+X button only clears search entries but not results.
